@@ -1,0 +1,29 @@
+form {
+  max-width: 380px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+}
+.form-control {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+input {
+  height: 40px;
+  padding: 0 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+button {
+  height: 40px;
+  background-color: #0b62c5;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  color: #fff;
+  font-size: 1.2rem;
+}
